@@ -1,0 +1,23 @@
+{
+  "name": "word-count",
+  "version": "1.0.0",
+  "description": "Command-line tool that counts lines, words and characters in a file and lists the most frequent words",
+  "main": "wc.js",
+  "bin": {
+    "word-count": "wc.js"
+  },
+  "scripts": {
+    "start": "node wc.js",
+    "demo": "node wc.js sample.txt"
+  },
+  "keywords": ["word-count", "cli", "nodejs", "text"],
+  "author": "Supreetgg",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Supreetgg/word-count.git"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
